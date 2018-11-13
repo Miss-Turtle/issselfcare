@@ -1,7 +1,11 @@
 // Wrapping jQuery variable to prevent conflict with other libraries
-(function ($) {    
+(function ($) {      
     // Wait all document's chargement
     $(document).ready(function () {
+        // Get parameters
+        var getUrlParameters = window.location.href.split("#");
+        var getUrlBasePart = getUrlParameters[0];
+        var getUrlParametersPart = getUrlParameters[1];
         // Verify if parameters exists in url and
         // Get url to determine if there are filter on url qurey search
         // [url parameters start with "k=" when no filter exist and start by "default=" when filter exist]
