@@ -1,0 +1,236 @@
+body {
+	font-family: "Arial";  
+    font-size: 13px;  
+    line-height: normal;
+}
+
+h1, .ms-h1 {
+    font-size: 2.3em;
+}
+
+h2, .ms-h2 {
+    font-size: 1.46em;    
+}
+
+h3, .ms-h3 {
+    font-size: 1.15em;
+}
+
+.ms-webpart-titleText {
+    color: #777777 !important;
+}
+
+div.contentwrapper {
+	margin: 0 10px 10px 10px;
+}
+
+.contentwrapper #bannerSearch {
+    width: 100%;
+    display: block;
+    background-image: url("/SiteAssets/search-page-img/BannerISS.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#contentBox {	
+	background-image: url("/SiteAssets/search-page-img/backgroundImage.jpeg");
+    background-repeat: no-repeat;
+    background-size: 100%;	
+	background-position: 50% 25%;
+}
+
+#contentBox #DeltaPlaceHolderMain  > .welcome {
+	padding: 0;
+}
+
+#contentBox #DeltaPlaceHolderMain  > .welcome .tableCol-75:first-of-type {
+	padding: 0 5px;
+	width: 100%;
+}
+
+#contentBox #DeltaPlaceHolderMain  > .welcome .tableCol-75:first-of-type  > .cell-margin:first-of-type {
+	padding: 0 5px;
+	background-color: #424242;
+    color: #ffffff !important;
+}
+
+#contentBox #DeltaPlaceHolderMain  > .welcome .tableCol-75:first-of-type  > .cell-margin:first-of-type > div > div {
+	margin: 0;
+}
+
+#MSOZoneCell_WebPartWPQ2 {
+	margin: auto 0;
+}
+
+#iMSearching {
+	display: inline-block;
+	color: #ffffff;
+	vertical-align: top;
+    height: 36px;
+    margin: 22px 50px 0px 0px;
+	font-weight: bold;
+    text-transform: uppercase;
+}
+
+#iMSearching i.material-icons {
+    margin-right: 50px;
+    vertical-align: middle;
+    color: #ffffff;
+}
+
+#MSOZoneCell_WebPartWPQ2 > .ms-webpart-chrome {
+	display: inline-block;
+	min-width: 80%;
+    margin-top: 12px;
+}
+
+#pageContentTitle {
+	display: none;
+}
+
+#contentBox #DeltaPlaceHolderMain  > .welcome #SearchBox {
+	background-color: #ffffff;
+}
+
+#contentBox #DeltaPlaceHolderMain  > .welcome #Refinement #Container {
+	background-color: #ffffff;
+    padding: 10px;
+}
+
+#contentBox #DeltaPlaceHolderMain  > .welcome #Refinement #Container > a:first-of-type {
+	font-weight: bold;
+	color: #f7801e;
+}
+
+#contentBox #DeltaPlaceHolderMain  > .welcome  > div:nth-of-type(2) > div > div:nth-of-type(2) > div:nth-of-type(2) > div,
+#contentBox #DeltaPlaceHolderMain  > .welcome  > div:nth-of-type(2) > div > div:nth-of-type(2) > div:nth-of-type(2) > div > div {
+	margin: 0;
+}
+
+#contentBox #DeltaPlaceHolderMain  > .welcome .webPartZoneTitleTopRight #Result {    
+	margin: 0;
+    padding: 5px 20px 1px 20px;
+    background-color: #ffffff;
+}
+
+#contentBox #DeltaPlaceHolderMain  > .welcome > div:nth-of-type(2) > div > div:last-of-type {
+	padding: 10px;
+	background-color: #424242;
+	color: #ffffff;
+} 
+
+#contentBox #DeltaPlaceHolderMain  > .welcome > div:nth-of-type(2) > div > div:last-of-type h1,
+#contentBox #DeltaPlaceHolderMain  > .welcome > div:nth-of-type(2) > div > div:last-of-type h2,
+#contentBox #DeltaPlaceHolderMain  > .welcome > div:nth-of-type(2) > div > div:last-of-type h3,
+#contentBox #DeltaPlaceHolderMain  > .welcome > div:nth-of-type(2) > div > div:last-of-type h4,
+#contentBox #DeltaPlaceHolderMain  > .welcome > div:nth-of-type(2) > div > div:last-of-type h5,
+#contentBox #DeltaPlaceHolderMain  > .welcome > div:nth-of-type(2) > div > div:last-of-type h6,
+#contentBox #DeltaPlaceHolderMain  > .welcome > div:nth-of-type(2) > div > div:last-of-type a,
+#contentBox #DeltaPlaceHolderMain  > .welcome > div:nth-of-type(2) > div > div:last-of-type a:hover {
+	color: #f7801e;
+}
+
+#contentBox #DeltaPlaceHolderMain  > .welcome > div:nth-of-type(2) > div > div:last-of-type i.material-icons {
+	vertical-align: middle;
+}
+
+div.ms-ref-refiner {
+	padding-right: 15px;
+}
+
+div.ms-srch-item {
+    width: 700px;
+}
+
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;  /* Preferred icon size */
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Support for IE. */
+  font-feature-settings: 'liga';
+}
+
+/* Media queries for mobile and tablet */
+@media only screen and (max-width: 1000px){
+    #iMSearching {
+        display: block;
+        margin: 12px 50px 0 0;
+    }
+    #MSOZoneCell_WebPartWPQ2 > .ms-webpart-chrome {
+        display: block;
+        margin: 0 0 12px 0;
+    }
+    #contentBox {
+        background-position: top center;
+        background-size: 100% 100%;
+    }
+    #contentBox #DeltaPlaceHolderMain > .welcome > .welcome-content {
+        margin: 0;
+    }
+    #contentBox #DeltaPlaceHolderMain > .welcome .tableCol-75:first-of-type > .cell-margin:first-of-type {
+        margin: 0;
+    }
+    #contentBox #DeltaPlaceHolderMain  > .welcome > .ms-table > .tableCol-75 {
+        padding: 0;
+    }
+    #contentBox #DeltaPlaceHolderMain  > .welcome > .ms-table > .tableCol-75 > .ms-table {
+        margin: 0 5px;
+    }
+    #contentBox #DeltaPlaceHolderMain  > .welcome .webPartZoneTitleTopLeft {
+        display: block;
+        margin: 0;
+        min-width: 100%;
+    }
+    #contentBox #DeltaPlaceHolderMain  > .welcome .webPartZoneTitleTopRight {
+        display: block;
+        margin: 12px 0px 5px 0px;
+        min-width: 100%;
+    }
+
+    #contentBox #DeltaPlaceHolderMain  > .welcome .webPartZoneTitleTopLeft > .ms-webpart-zone > .ms-webpartzone-cell {
+        margin: auto auto 5px auto;
+    }
+    #contentBox #DeltaPlaceHolderMain  > .welcome .webPartZoneTitleTopRight div {
+        display: block;
+    }
+
+    #contentBox #DeltaPlaceHolderMain  > .welcome .webPartZoneTitleTopRight #Result {
+        margin: 0;
+        padding: 5px 10px 1px 10px;
+    }
+
+    #contentBox #DeltaPlaceHolderMain > .welcome #Refinement #Container {
+        position: relative;
+        top: 10px;
+    }
+
+    div.ms-srch-item {
+        width: auto;
+    }
+
+    .webPartZoneFooter table {
+        display: block;
+        height: auto !important;
+    }
+    .webPartZoneFooter td {
+        display: block;
+        width: 100%;
+    }
+}
