@@ -11,6 +11,7 @@
 	<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
 	<meta http-equiv="X-UA-Compatible" content="IE=10"/>
 	<meta http-equiv="Expires" content="0" />
+	<SharePoint:ScriptLink id="ScriptIssselfcare" language="javascript" name="~sitecollection/SiteAssets/search-page-js/issselfcareSearchLoad.js" runat="server" />
 	<SharePoint:SPPinnedSiteTile runat="server" TileUrl="/_layouts/15/images/SharePointMetroAppTile.png" TileColor="#0072C6" />
 	<SharePoint:RobotsMetaTag runat="server"/>
 	<SharePoint:PageTitle runat="server">
